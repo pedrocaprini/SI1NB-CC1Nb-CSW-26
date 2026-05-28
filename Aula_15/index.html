@@ -15,6 +15,35 @@
 
     <div id="resultado"></div>
 
+    <div id="idadetoda">
+        <label for="dia">Dia:</label>
+        <input type="number" name="dia" id="dia" min="1" max="31">
+
+        <label for="mes">Mês:</label>
+        <select name="mes" id="mes">
+            <option value="">Selecione</option>
+            <option value="1">Janeiro</option>
+            <option value="2">Fevereiro</option>
+            <option value="3">Março</option>
+            <option value="4">Abril</option>
+            <option value="5">Maio</option>
+            <option value="6">Junho</option>
+            <option value="7">Julho</option>
+            <option value="8">Agosto</option>
+            <option value="9">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+        </select>
+
+        <label for="anoNascimento">Ano:</label>
+        <input type="number" name="anoNascimento" id="anoNascimento" min="1900" max="2026">
+
+        <button onclick="idadeTudo()">Calcular</button>
+    </div>
+
+    <div id="resultado2"></div>
+
     <script src="script.js"></script>
 </body>
 </html>
